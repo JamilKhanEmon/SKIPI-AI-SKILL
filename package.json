@@ -1,0 +1,15 @@
+{
+  "name": "skipi-ai-skill",
+  "version": "3.5.0",
+  "description": "Skipi AI skill — Master Autonomous Software Engineering & Senior QA Harness. 90-99% autonomous delivery, Ultra-Modern UI, enterprise DB, bank-grade security, and 50x-100x self-healing browser test loop.",
+  "license": "MIT",
+  "scripts": {
+    "test:qa": "python3 scripts/skip_qa_harness.py --iterations 50",
+    "test:qa:100": "python3 scripts/skip_qa_harness.py --iterations 100",
+    "test:browser": "node scripts/skip_browser_verifier.js",
+    "security:audit": "python3 scripts/skip_security_audit.py ."
+  },
+  "devDependencies": {
+    "playwright": "^1.65.1"
+  }
+}

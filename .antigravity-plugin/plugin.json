@@ -1,0 +1,27 @@
+{
+  "name": "skipi-ai-skill",
+  "version": "3.5.0",
+  "description": "Skipi AI skill — Master Autonomous Software Engineering & 50x-100x Self-Healing QA Harness for Antigravity",
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "agy",
+    "autonomous-agent",
+    "skipi-ai-skill",
+    "self-healing",
+    "qa-testing",
+    "browser-testing",
+    "security-audit"
+  ],
+  "skills": [
+    "skills/skipi-ai-skill",
+    "skills/skip-ai"
+  ],
+  "agents": [
+    "agents/skip-architect.md",
+    "agents/skip-engineer.md",
+    "agents/skip-security-officer.md",
+    "agents/skip-senior-qa.md",
+    "agents/skip-browser-tester.md"
+  ]
+}

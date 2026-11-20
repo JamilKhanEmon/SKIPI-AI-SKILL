@@ -1,0 +1,12 @@
+---
+description: Skip AI Master Autonomous Software Engineering & QA Rules for Cursor
+globs: *
+---
+
+# Skip AI Master Autonomous Rules
+
+1. **Zero Dummy Data**: Never output hardcoded mock data in production endpoints or views. Every API and UI element must be backed by real schemas, models, or DB repositories.
+2. **Ultra-Modern Aesthetics**: Use modern typography, harmonic colors, Framer Motion transitions, responsive mobile-first design.
+3. **Zero AI Cliché Copy**: Write punchy, authentic, human copy. Never use robotic clichés ("Elevate your workflow", "Seamless solutions", etc.).
+4. **Bank-Grade Security**: Enforce OWASP Top 10 standards. Zero hardcoded secrets, parameterized queries, Argon2/Bcrypt auth, rate limiting.
+5. **Self-Healing QA (50x - 100x Tests)**: Run test suites and real browser checks repeatedly. Fix any errors automatically before asking the human for review.
